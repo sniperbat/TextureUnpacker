@@ -10,6 +10,7 @@
 		25FD26FC18865EAC0050B010 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FD26FB18865EAC0050B010 /* Foundation.framework */; };
 		25FD26FF18865EAC0050B010 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FD26FE18865EAC0050B010 /* main.m */; };
 		25FD270318865EAC0050B010 /* TextureUnpacker.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25FD270218865EAC0050B010 /* TextureUnpacker.1 */; };
+		25FD270A18865EE10050B010 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FD270918865EE10050B010 /* AppKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		25FD26FE18865EAC0050B010 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		25FD270118865EAC0050B010 /* TextureUnpacker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextureUnpacker-Prefix.pch"; sourceTree = "<group>"; };
 		25FD270218865EAC0050B010 /* TextureUnpacker.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TextureUnpacker.1; sourceTree = "<group>"; };
+		25FD270918865EE10050B010 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25FD26FC18865EAC0050B010 /* Foundation.framework in Frameworks */,
+				25FD270A18865EE10050B010 /* AppKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +68,7 @@
 		25FD26FA18865EAC0050B010 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				25FD270918865EE10050B010 /* AppKit.framework */,
 				25FD26FB18865EAC0050B010 /* Foundation.framework */,
 			);
 			name = Frameworks;
